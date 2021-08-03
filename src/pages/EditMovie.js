@@ -15,7 +15,7 @@ class EditMovie extends Component {
 
   render() {
     // const { match } = this.props;
-    console.log(match);
+    // console.log(match);
     const { status, shouldRedirect, movie } = this.state;
     console.log(status);
     if (shouldRedirect) {
